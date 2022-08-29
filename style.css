@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://media.istockphoto.com/photos/cloud-typologies-night-sky-milky-way-picture-id879837540?k=20&m=879837540&s=612x612&w=0&h=IHHDmGZEnU7-aXbA4zw3PNuj8fe2D5Yvz-4o4SKZxyE=");
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  color: antiquewhite;
+  display: flex;
+}
+
+.clock {
+  color: antiquewhite;
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  width: 100px;
+  height: 80px;
+  background: red;
+  opacity: .8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: salmon;
+  opacity: .8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: tomato;
+}
